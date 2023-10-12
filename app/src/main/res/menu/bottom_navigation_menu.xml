@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/explore"
+        android:title="Explore"
+        android:enabled="true"
+        android:icon="@drawable/child_selector_explorer"/>
+    <item
+        android:title="Network"
+        android:icon="@drawable/child_selector_network"
+        android:enabled="true"
+        android:id="@+id/network"/>
+    <item
+        android:title="Chat"
+        android:icon="@drawable/child_selector_chat"
+        android:enabled="true"
+        android:id="@+id/chat"/>
+    <item
+        android:title="Contacts"
+        android:icon="@drawable/child_selector_contact"
+        android:enabled="true"
+        android:id="@+id/contact"/>
+    <item
+        android:title="Groups"
+        android:icon="@drawable/child_selector_group"
+        android:enabled="true"
+        android:id="@+id/group"/>
+
+</menu>
